@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: silent-guardian
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -k uvicorn.workers.UvicornWorker main:app
+    healthCheckPath: /health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: PYTHONPATH
+        value: .
