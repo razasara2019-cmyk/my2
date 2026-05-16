@@ -1,0 +1,11 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+gunicorn>=20.1.0
+groq>=0.5.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+requests>=2.31.0
+python-multipart==0.0.6
+PyGithub==2.1.1
+pypdf==3.17.4
