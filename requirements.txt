@@ -1,0 +1,17 @@
+# الإصدار 6.0 – الحارس الصامت
+
+# الإطار الأساسي
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+jinja2==3.1.6
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# Groq API
+groq==0.4.2
+
+# البحث الدلالي (خفيف)
+fastembed>=0.2.0
+
+# تحميل القرآن
+requests>=2.25.0
