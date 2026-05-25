@@ -1,0 +1,12 @@
+"""
+mind – حزمة الحارس الصامت (الكيان الدستوري الحي)
+الإصدار: 6.0
+"""
+
+from mind.quran_core import QuranCore
+from mind.entity import ConstitutionalEntity
+
+__all__ = [
+    "QuranCore",
+    "ConstitutionalEntity"
+]
